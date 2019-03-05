@@ -1,0 +1,24 @@
+name: affordance-net
+
+base:
+  ubuntu: 16.04
+  cuda: 8.0-devel
+  cudnn: 5-devel
+  
+apt:
+  - libprotobuf-dev
+  - libleveldb-dev
+  - libsnappy-dev
+  - libopencv-dev
+  - libhdf5-serial-dev
+  - protobuf-compiler
+  - libboost-all-dev
+  - libatlas-base-dev
+  - python-dev
+  - libgflags-dev
+  - libgoogle-glog-dev
+  - liblmdb-dev
+
+pip:
+  - numpy
+
